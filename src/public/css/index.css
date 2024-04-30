@@ -1,0 +1,38 @@
+.home__content--top{
+  height: 10vh;
+  border-bottom: 1px solid gray;
+}
+
+.home__content--nav,
+.home__content--main{
+  width: 85%;
+  margin: 0 auto;
+  padding: 2.3rem 0;
+}
+
+.home__content--nav:active,
+.home__content--main:active {
+  color: red;
+}
+
+.recommend--btn,
+.mylist--btn{
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.item-card{
+  width: 200px;
+  height: 200px;
+}
+
+.item-card__img{
+  width: 100%;
+}

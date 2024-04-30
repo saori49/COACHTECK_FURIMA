@@ -1,0 +1,11 @@
+.detail__content{
+  width: 85%;
+  margin: 0 auto;
+  padding: 2.3rem 0;
+  display: flex;
+}
+
+.detail__content--left,
+.detail__content--right {
+  width: 50%;
+}
