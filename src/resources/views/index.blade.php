@@ -18,12 +18,11 @@
       @foreach($items as $item)
       <div class="item-card">
         <a href="{{ route('item.detail', $item->id) }}">
-          <img class="item-card__img" src="{!! $item->image_url !!}" alt="shop-img" />
+          <img class="item-card__img" src="{!! $item->img_url !!}" alt="shop-img" />
         </a>
       </div>
-      @endforeach 
+      @endforeach
     </div>
   </div>
-
 </div>
 @endsection

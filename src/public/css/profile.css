@@ -1,0 +1,111 @@
+.profile__content {
+  width: 85%;
+  margin: 0 auto;
+  padding: 2.5rem 0;
+}
+
+.profile--form__content {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.profile--form__ttl {
+  font-weight: bolder;
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.form {
+  padding-top: 20px;
+}
+
+.profile-photo {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  /* 画像の幅に合わせて調整 */
+  height: 150px;
+  /* 画像の高さに合わせて調整 */
+}
+
+.profile-photo-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  /* 丸型にする */
+  object-fit: cover;
+  /* 画像が領域に収まるように */
+}
+
+#profile_image {
+  display: none;
+  /* ファイル選択ボタンを非表示 */
+}
+
+.select-btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  /* ボタンの背景色 */
+  color: #fff;
+  /* ボタンのテキスト色 */
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.select-btn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  /* ホバー時の背景色 */
+}
+
+
+
+.form__group--ttl {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+
+.form__group--input {
+  width: 100%;
+  height: 3em;
+  border-radius: 5px;
+  border: 2px solid gainsboro;
+}
+
+.form__error {
+  height: 30px;
+  color: #ff0000;
+}
+
+.alert.alert-danger,
+.alert.alert-success {
+  color: #ff0000;
+}
+
+.form__button {
+  margin-top: 30px;
+}
+
+.form__button-submit {
+  width: 100%;
+  padding: 5px 0;
+  border: none;
+  border-radius: 3px;
+  background: #bb3540;
+  color: #fff;
+  cursor: pointer;
+  padding: 7px 0px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.login-button {
+  text-decoration: none;
+  color: blue;
+}

@@ -19,7 +19,7 @@ use App\Http\Controllers\UserController;
 */
 
 Route::get('/', [ItemController::class, 'index']);
-Route::get('/item/{item_id}', [ItemController::class, 'detail'])->name('item.detail');;
+Route::get('/item/{item_id}', [ItemController::class, 'detail'])->name('item.detail');
 
 Route::post('/item/comment/{item_id}', [CommentController::class, 'create']);
 
@@ -35,7 +35,7 @@ Route::get('/sell', [ItemController::class, 'sellView']);
 Route::post('/sell', [ItemController::class, 'sellCreate']);
 
 Route::get('/mypage', [UserController::class, 'mypage']);
-Route::get('/mypae/profile', [UserController::class, 'profile']);
+Route::get('/mypae/profile', [UserController::class, 'profile'])->name('profile');
 Route::post('/mypae/profile', [UserController::class, 'updateProfile']);
 
 

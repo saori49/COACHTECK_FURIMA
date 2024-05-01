@@ -9,12 +9,13 @@
 <div class="detail__content">
   <div class="detail__content--left">
     <div class="detail--photo">
-      <img class="detail--img"src="" alt="">
+      <img class="item-card__img" src="{!! $item->img_url !!}" alt="shop-img" />
     </div>
   </div>
 
   <div class="detail__content--right">
     <div class="detail--inner">
+      @foreach($items as $item)
       <div class="item-name">
         <h1 class="item__ttl">商品名</h1>
         <p class="item__bland">ブランド名</p>
